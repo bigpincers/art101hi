@@ -1,0 +1,110 @@
+body{
+    background-image: url(images/redsnow.gif);
+    margin-left: 500px;
+}
+
+* { box-sizing: border-box; }
+
+body { margin: 24px;
+     font-family: Arial, sans-serif; 
+     color: #000000; }
+
+p { line-height: 1.5;
+background-color: aquamarine;
+width: 300px; }
+
+button { padding: 10px 16px; 
+        border: 1px solid #888; 
+        background: #f7f7f5; 
+        font: inherit; 
+        cursor: pointer; }
+
+.controls { display: flex;
+            flex-wrap: wrap; 
+            gap: 10px; }
+
+
+/* This relative container is the origin for its absolutely positioned child: left/top are local to it. */
+#stage { position: relative; 
+        width: 50%; 
+        height: 220px; margin-top: 24px; 
+        background: rgb(223, 202, 177); 
+        outline: 5px solid #0a0a0a; 
+        overflow: hidden; }
+
+/* Shift back by half the mark's own size to center it on the coordinates. */
+
+.mark { position: absolute; 
+        width: 20px;
+        height: 20px;
+        border: 1px solid #ff0000;
+        border-radius: 50%;
+        background: #ff0000;
+        transform: translate(-50%, -50%); }
+/* Marks do not intercept later pointer events. */
+
+.mark { pointer-events: none; }
+    .top p {
+        background-color: aquamarine;
+        color: black;
+        width: 250px;
+        margin-bottom: 100px;
+    }
+    .top_container { 
+        display: flex; 
+        #item1 {
+            width: 200px;
+            margin-left: 50px;
+
+        }
+        #item2 img {
+            width:200px;
+        margin: 0 0 0 175px}
+
+        }
+    .main p {
+        background-color: aquamarine;
+        color: black;
+        width: 250px;
+        margin: 0 0 0 25px
+        
+    }
+    
+    .main_container {
+    display: flex; 
+    #item1 img {
+        width: 300px;
+    }
+    
+    #item2 img {
+        height: 250px; 
+    }
+button{
+  background: red;
+    font-size: 22px;
+    padding: 12px 20px;
+    border: none;
+    height: 150px
+    
+}
+#button1 {
+    font-size: 22px;
+    padding: 12px 20px;
+    height: 150px}
+#button2 {
+    font-size: 22px;
+    padding: 12px 20px;
+    height: 150px}
+#button3 {
+    font-size: 20px;
+    padding: 12px 20px;
+    height: 150px}
+
+#output {
+    font-size: 22px;
+    width: 300px;
+
+}
+
+
+}

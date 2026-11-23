@@ -1,0 +1,17 @@
+body{
+    background-image: url(images/house.jpg);
+    background-size: cover;
+    min-height: 400px;
+    min-width: 800px;
+
+
+.description-windows {
+    background-color: antiquewhite;
+    max-width: 150px;
+
+}
+    
+   
+    
+    
+}
